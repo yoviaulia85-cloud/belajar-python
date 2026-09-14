@@ -1,0 +1,64 @@
+nama = input("HALLO, KAMU SIAPA YA...")
+print(f"Ohh, ini {nama} yaa...")
+angka = int(input("Coba dehhh, sekarang tanggal berapa??"))
+print(f"Sekarang tanggal {angka} yaa. Yaudah gitu aja si... ")
+
+import time
+
+print("...........")
+time.sleep(2)
+
+print("TAPI BOONG.......!!!!")
+time.sleep(2)
+
+MERAH = "\033[91m"
+HIJAU = "\033[92m"
+TEBAL = "\033[1m"
+AKHIR = "\033[0m"
+
+import time
+
+jawab = input("KAMU UDAH TAU AKHIRNYA YAA.....????(ya or yes?)")
+
+if jawab == "ya":
+    print(f"{HIJAU}{TEBAL}Nahhh, Selamattt dehhh. Bentar aku masih punya sesuatu{AKHIR}")
+else:
+    print(f"{MERAH}{TEBAL}ALAMAK, YAUDAH DEHHH. TAPI AKU PUNYA SESUATU BUAT KAMU{AKHIR}")
+
+print(f"{HIJAU}{TEBAL} SELAMAT ULTAH YAA")
+time.sleep(2)
+
+print("TERIMAKASIH UDAH SEJAUH INI")
+time.sleep(2)
+
+print("MAKASIH UDAH KUAT MELEWATI HARI HARIMU WALAUPUN SUKA SOK KUAT")
+time.sleep(2)
+
+print("AKU YAKIN KAMU UDAH BERUSAHA MELAKUKAN YANG TERBAIK BUAT DIRIMU SENDIRI")
+time.sleep(2)
+
+print("SEBENERNYA BANYAK YANG MAU KU UCAPIN, TAPI ENGGA BISA KESAMPAIAN. JADI YA INI AJA GAPAPA DEHHH.")
+time.sleep(2)
+
+print("OHHH IYAA, SEMOGA DOA DAN HARAPANMU TERKABUL")
+time.sleep(2)
+
+print("MAKE A WISH GESSS")
+time.sleep(2)
+
+print("IHH ELU UDAH TUA YAA..... AKU BARU SADAR DAHHH..........")
+time.sleep(2)
+
+print("JANGAN LUPA KALO UDAH TUA YA, BERATI HARUS BAIK SAMA YANG ANAK MUDA MACAM AKU :)")
+time.sleep(2)
+
+print(f"DAH, SELESAI BENERAN NIHHH{AKHIR}")
+time.sleep(2)
+
+print(f"{MERAH}{TEBAL}BTW HADIAHNYA NYUSUL YAKK, TAPI AKU GA BISA NGASIH YANG LUAR BIASA SI")
+time.sleep(4)
+
+print(f"INI AJA AKU JUGA MASIH BELAJAR + BEREFFORT BIAR KELIATAN AGAK KEREN DIKIT. INI TERMASUK HADIAH GA SI??{AKHIR}:)")
+time.sleep(2)
+
+print(f"{TEBAL}JANGAN MINTA HADIAH MACEM MACEM YA ELU!!!!!!!!!{AKHIR}")
