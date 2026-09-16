@@ -1,0 +1,18 @@
+print("=== PERHITUNGAN UMUR ===")
+nama = input("HALOO, NAMA KAMU SIAPA??")
+tahun_lahir = int(input("COBA MASUKIN TAHUN KELAHIRANMU ....."))
+
+tahun_sekarang = 2026
+umur = tahun_sekarang-tahun_lahir
+
+print()
+print(f"HALLO {nama} SEKARANG UMURMU {umur} TAHUN!")
+
+if umur < 17 :
+    print("WAHH, KAMU MASIH TERMASUK ANAK - ANAK. SEMANGAT SEKOLAHNYAA")
+elif umur < 25 :
+    print("WAHHH, MASA MUDA YANG MENYENANGKAN DAN BEBAS")
+else:
+    print("SEMANGAT MENJALANI HIDUP!!!!!!")
+
+print("SELESAI")

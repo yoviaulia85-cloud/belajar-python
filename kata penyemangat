@@ -1,0 +1,22 @@
+print("=== KATA PENYEMANGAT ===")
+print()
+print("Bagaimana Perasaanmu hari ini?")
+print("1. sedang lelah")
+print("2. sedang ragu dan bimbang")
+print("3. sedang senang dan semangat")
+print()
+
+pilih = int(input("Coba ketik nomornya ya... "))
+
+if pilih == 1:
+    print("Gapapa, istirahat dulu, kamu udah berusaha untuk hari ini")
+    print("Besok kita lanjut lagi yaa...")
+elif pilih == 2:
+    print("Keraguan itu tanda kamu tumbuh")
+    print("Bukan berarti tidak mampu")
+    print("Coba pelan pelan aja yang mikir dehhh. Nanti pasti ketemu jawabannya")
+elif pilih == 3:
+    print("Tetap pertahankan, semangat itu menular")
+    print("Jangan lupa tetap jaga diri")
+else:
+    print("Pilih nomor 1, 2, 3 yaa...")

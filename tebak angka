@@ -1,0 +1,12 @@
+import random
+import time
+
+print("=== TEBAK ANGKA 1-10 ===")
+rahasia = random.randint(1,10)
+
+tebakan = int(input(" Aku pilih angka rahasia 1-10, coba tebak dehh: "))
+
+if tebakan == rahasia:
+    print("Selamat kamu tidak terkecoh akan pertanyaannya ")
+else:
+    print(f" Ups, kamu kurang beruntung. angkanya adalah {rahasia}")
